@@ -1,0 +1,8 @@
+h2, ul {
+   display: none;
+}
+
+input:focus ~ ul {
+   display: block;
+   cursor: pointer;
+}
